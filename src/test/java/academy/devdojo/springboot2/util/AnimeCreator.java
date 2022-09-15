@@ -4,15 +4,15 @@ import academy.devdojo.springboot2.domain.Anime;
 
 public class AnimeCreator {
     public static Anime createAnimeToBeSaved() {
-        return Anime.builder().name("Pokemon").build();
+        return Anime.builder().name("Hajime no Ippo").build();
     }
 
     public static Anime createValidAnime(){
-        return Anime.builder().name("Pokemon").id(1L).build();
+        return Anime.builder().name("Hajime no Ippo").id(1L).build();
     }
 
     public static Anime createAValidUpdateAnime() {
-        return Anime.builder().name("Pokemon").id(1L).build();
+        return Anime.builder().name("Hajime no Ippo").id(1L).build();
     }
 
 

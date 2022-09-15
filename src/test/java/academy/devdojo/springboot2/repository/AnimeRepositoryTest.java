@@ -24,7 +24,7 @@ class AnimeRepositoryTest {
         boolean isIdEmptyOrNull = false;
         Anime anime = AnimeCreator.createAnimeToBeSaved();
         Anime save = this.animeRepository.save(anime);
-        Assertions.assertEquals("Pokemon", save.getName());
+        Assertions.assertEquals("Hajime no Ippo", save.getName());
         if (save.getId() == 0 || save.getId() == null) {
             isIdEmptyOrNull = true;
         }
