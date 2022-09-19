@@ -31,7 +31,7 @@ public class AnimesAPIUser implements UserDetails {
 
     private String username;
     private String password;
-    private String authorities; //ROLE_ADMIN, ROLE_USER
+    private String authorities; //ROLE_ADMIN,USER
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
