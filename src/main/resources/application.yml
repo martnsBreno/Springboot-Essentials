@@ -11,3 +11,13 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+
+info:
+  app: Animes API Developed by Breno Martins during the Springboot essentials course by DevDojo
+  github: https://github.com/martnsBreno/Springboot-Essentials
